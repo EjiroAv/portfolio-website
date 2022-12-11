@@ -1,0 +1,45 @@
+/* CSS */
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+/* Specify in CSS */
+body {
+  font-family: "Fira Code", monospace;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+}
+
+@supports (font-variation-settings: normal) {
+  body {
+    font-family: "Fira Code VF", monospace;
+  }
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+}
+
+.text-bold {
+  font-weight: bold;
+  color: gray;
+  transition: ease-in 500ms;
+}
+
+a {
+  color: white;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
